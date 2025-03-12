@@ -160,3 +160,13 @@ button {
         font-size: 3.6rem;
     }
 }
+
+/* 使用響應式設計和媒體查詢 */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 2rem 1rem;
+    }
+    .container {
+        padding: 0 1rem;
+    }
+}
